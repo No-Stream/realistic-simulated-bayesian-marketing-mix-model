@@ -4,7 +4,7 @@ In this notebook, I simulate a realistic marketing mix dataset that exhibits, fo
 
 I'll pretend we're a company making a new and great coffee pour-over device to make things a bit more concrete, though, of course, it won't affect the math much.  
 
-I'll start by investigating with some frequentist models - both reasonably well- and quite mis-specified. Then I'll compare them with a few Bayesian models. Note that to keep this semi-realistic, none of the models will perfectly capture the data-generating process. E.g. we'll (at least to start with) assume stable coefficients over time and have an incomplete understanding of confounding (latent variables). We'll see how much bias we end up with - can with get our incremental return on ad spend _about_ right? Can we rank our channel effectiveness successfully?  
+I'll start by investigating with some frequentist models - both reasonably well- and quite mis-specified. Then I'll compare them with a few Bayesian models. Note that to keep this semi-realistic, none of the models will perfectly capture the data-generating process. E.g. we'll (at least to start with) assume stable coefficients over time and have an incomplete understanding of confounding (latent variables). We'll see how much bias we end up with - can we get our incremental return on ad spend _about_ right? Can we rank our channel effectiveness successfully?  
 
 As a side comparison, I'll see whether we could've gotten away with using variational inference to fit our Bayesian models. (I tend to be a bit suspicious of these results after some bad experiences in the past.)  
 
